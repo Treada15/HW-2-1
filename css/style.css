@@ -15,17 +15,17 @@
 }
 
 body {
-  fron-family: "Roboto", Roboto;
+  font-family: "Roboto", Roboto;
 }
-.list ul {
-  list-style: none;
+.list {
+  list-style-type: none;
 }
 .link a {
   text-decoration: none;
 }
 /*--HEADER --*/
 
-.header-link a {
+.header-link {
   font-family: Raleway;
   font-style: normal;
   font-weight: 700;
@@ -34,22 +34,14 @@ body {
   letter-spacing: 0.03em;
   color: var(--header-text-color);
 }
-.header-tell a {
+.header-tell {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14x;
   letter-spacing: 0.02em;
   color: var(--header-link-color);
 }
-.header-buttom button {
-  font-family: inherit;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
 
-  color: var(--second-button-color);
-}
 .header-link:hover,
 .header-link:focus {
   color: var(--accent-color);
@@ -66,7 +58,6 @@ body {
   color: var(--main-title-color);
 }
 .hero-button {
-  font-family: inherit;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
@@ -171,3 +162,5 @@ body {
 
   color: rgba(255, 255, 255, 0.6);
 }
+/* alignment */
+.header-navigation
