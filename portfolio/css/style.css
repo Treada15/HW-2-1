@@ -119,26 +119,31 @@ body {
 .hero-container {
   display: flex;
 }
-.hero-button {
+.hero-list-button {
   font-family: Roboto;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.87;
   display: flex;
-  align-items: center;
+  margin-top: 100px;
+  padding: 0px;
+  margin-left: 293px;
+}
+.hero-button-item {
   text-align: center;
   letter-spacing: 0.06em;
-  width: 200px;
-  justify-content: center;
-  min-height: 50px;
+  min-width: 73px;
+  height: 38px;
   border-radius: 4px;
-  margin: 0 auto;
   color: var(--header-text-color);
   background-color: #f5f4fa;
+  margin-left: 8px;
+  border: 1px solid #f5f4fa;
 }
-.hero-button:hover,
-.hero-button:focus {
+
+.hero-button-item:hover,
+.hero-button-item:focus {
   background-color: var(--second-button-color);
 }
 /*--about--*/
@@ -150,9 +155,11 @@ body {
   padding: 0px;
 }
 .about-item {
-  margin-right: 20px;
+  margin-right: 30px;
+  margin-bottom: 50px;
 }
-.about-item:nth-last-child(3n + 3) {
+.about-item:nth-child(3n + 3) {
+  margin-right: 0px;
 }
 .a .about-item-title {
   font-family: Roboto;
